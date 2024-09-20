@@ -44,7 +44,7 @@ Starter template utilizing both components:
 - `data-rule-index` (optional) added to child elements within this component. When a particular rule is matched/unmatched, an `is-match` class is toggled on the child element.
   - Example: In the template above, the `[A-Z]` rule resides at index `1`. When an uppercase letter is typed into the password input, the match class will be added to the element containing `data-rule-index="1"`. If the uppercase letter is deleted, the match class is removed.
 
-### Rule styles
+### Styles
 
 A `data-score` value is updated as each rule is matched. We can leverage this in our CSS. For example, we could insert an indicator element and update its background color as the score changes:
 
@@ -116,7 +116,7 @@ When the component script runs, `aria-pressed`, `aria-label` and `aria-controls`
 
 On click, `aria-pressed` toggles between `true` (password showing) and `false` (password hidden) while the `aria-label` string updates to match the current button action. For example, if `aria-pressed="true"` then the `aria-label` value becomes "Hide password". The current _status_ is also reflected as a text value in the targeted live region.
 
-### Toggle styles
+### Styles
 
 Lean on the `aria-pressed` state for custom styling.
 
