@@ -21,7 +21,7 @@ Starter template utilizing both components:
 ```html
 <label for="new-password">Password</label>
 <input type="password" id="new-password" />
-<div id="status" class="visually-hidden" aria-live="polite"></div>
+<div id="status" aria-live="polite"></div>
 
 <password-toggle data-input-id="new-password" data-status-id="status">
   <button type="button">Toggle password visibility</button>
