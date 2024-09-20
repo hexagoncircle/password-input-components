@@ -1,4 +1,4 @@
-Password input components
+# Password input components
 
 A set of Web Components that enhances an HTML password input with a few extra utilities.
 
