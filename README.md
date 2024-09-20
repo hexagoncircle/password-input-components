@@ -46,7 +46,7 @@ Starter template utilizing both components:
 
 ### Styles
 
-A `data-score` value is updated as each rule is matched. We can leverage this in our CSS. For example, we could insert an indicator element and update its background color as the score changes:
+A `data-score` value on the custom element is updated as each rule is matched. We can leverage this in our CSS. For example, we could insert an indicator element and update its background color as the score changes:
 
 ```css
 password-rules .indicator {
