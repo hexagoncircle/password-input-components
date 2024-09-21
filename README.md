@@ -2,7 +2,10 @@
 
 A set of Web Components that enhances an HTML password input with a few extra utilities.
 
-✨ [CodePen demo](https://codepen.io/hexagoncircle/pen/LYKKjmj)
+- ✨ [CodePen demo](https://codepen.io/hexagoncircle/pen/LYKKjmj)
+- ✍️ [Web Components for Password Input Enhancements](https://ryanmulligan.dev/blog/password-input-components/)
+
+## Components
 
 - `<password-rules>` watches for when rules (password length, includes an uppercase letter, etc.) are met while the user is typing in a new password.
 - `<password-toggle>` shows and hides the password input value on click.
