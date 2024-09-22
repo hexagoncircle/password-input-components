@@ -14,7 +14,7 @@ class PasswordToggle extends HTMLElement {
 
     this.btn.ariaPressed = false;
     this.btn.ariaLabel = "Show password";
-    this.btn.setAttribute("aria-contols", this.dataset.inputId);
+    this.btn.setAttribute("aria-controls", this.dataset.inputId);
     this.btn.addEventListener("click", this);
   }
 
