@@ -78,15 +78,9 @@ CSS variables for `--score` and `--total` are added to the custom element. In th
 }
 ```
 
-_Note:_ Fallback values are provided to the CSS variables. Specifically, the `--total` value does not update initially when the Web Component script runs. We could skip the fallback and instead [register those custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/@property):
+_Note:_ Fallback values are provided to the CSS variables. Specifically, the `--total` value does not update initially when the Web Component script runs. We could skip the fallback and instead [register those custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/@property).
 
-```css
-@property --total {
-  syntax: "<number>";
-  initial-value: 0;
-  inherits: true;
-}
-```
+### Rule index match styles
 
 If a child of the custom element contains a `data-rule-index` attribute, an `is-match` class is added to it as the corresponding rule is matched.
 
